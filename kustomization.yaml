@@ -5,7 +5,4 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunPOnMissingResource=true
 
 resources:
-- prfccumulussubmit.delivery.yaml
-- prfccumulussimulator.delivery.yaml
-- prfccumulussubmit.delivery.partnerrequest.yaml
-- prfccumulussubmit.delivery.siebelresponse.yaml
+- address-application.yaml
