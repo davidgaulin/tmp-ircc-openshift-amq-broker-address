@@ -1,2 +1,3 @@
-# tmp-ircc-openshift-amq-broker-address
-TEmporary repo for testing purpose
+# Introduction
+This repo would contain all the Address for AMQ Broker
+

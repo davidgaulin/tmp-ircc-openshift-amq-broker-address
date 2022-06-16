@@ -5,3 +5,4 @@ metadata:
 spec:
   addressName: prfccumulussubmit.delivery.partnerrequest
   queueName: prfccumulussubmit.delivery.partnerrequest
+  routingType: anycast

@@ -1,0 +1,11 @@
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+
+commonAnnotations:
+  argocd.argoproj.io/sync-options: SkipDryRunPOnMissingResource=true
+
+resources:
+- prfccumulussubmit.delivery.yaml
+- prfccumulussimulator.delivery.yaml
+- prfccumulussubmit.delivery.partnerrequest.yaml
+- prfccumulussubmit.delivery.siebelresponse.yaml
